@@ -10,7 +10,7 @@ class App extends Component{
         monster:[],
         searchField: ""
     }
-    // this.handleChange = this.handleChange.bind(this)
+
   }
 
   componentDidMount(){
@@ -19,7 +19,6 @@ class App extends Component{
     .then(user => this.setState({monster:user}));
   }
 
-  // arrow bind the value of this to where it is defined
   handleChange = (e) => { 
     this.setState({searchField: e.target.value})
   }

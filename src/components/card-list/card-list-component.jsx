@@ -11,4 +11,3 @@ export const CardList = props => (
     </div>
 );
 
-// use return if {} but doesn't require if you use()
