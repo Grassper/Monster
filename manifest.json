@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Monster PWA",
+  "name": "Monster Rolodex",
   "icons": [
     {
       "src": "favicon.ico",
